@@ -7,13 +7,15 @@ body{
 }
 .post{
     background-color:beige;
-    width: 750px;
-    height: 800px;  
+    width: 350px;
+    height: 800px; 
+
 }
 .cabezera{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 
 }
 .cabezera2{
@@ -25,6 +27,8 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+    
     
 }
 .cabezera1{
@@ -38,4 +42,17 @@ body{
     margin: 0px;
 }
 
+.icono-grande{
+    font-size: 30px;
+}
 
+img{
+    width: 100%;
+    display:flex;
+    object-fit: contain;
+}
+
+.imagen{
+    display: flex;
+    width: 100%;
+}
